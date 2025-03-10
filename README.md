@@ -1,6 +1,5 @@
 # margylichka.github.io
 Визитка для QA
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -66,15 +65,7 @@
     <script type="text/javascript" src="js.js"></script>
   </body>
 </html>
-[Uploading js.js…]()
-/* Это объявление переменной, мы наши кнопку по тегу */
-const button = document.querySelector('button');
-
-/* Тут на кнопку навешиваем обрабочик, который ждёт клика и тогда запустит логику */
-button.addEventListener('click', function() {
-	alert('Сайт без багов')
-})
-[Uploabody {
+body {
   font-family: "Helvetica";
   background-color: #f2f1f6;
   color: #000000;
@@ -211,8 +202,14 @@ footer {
 button {
   border: justify-content: center;
   align-items: center;;
-}ding ios.css…]()
-[Uploading normalize.css…]()
+}
+/* Это объявление переменной, мы наши кнопку по тегу */
+const button = document.querySelector('button');
+
+/* Тут на кнопку навешиваем обрабочик, который ждёт клика и тогда запустит логику */
+button.addEventListener('click', function() {
+	alert('Сайт без багов')
+})
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Документ
@@ -562,3 +559,4 @@ template {
 [hidden] {
   display: none;
 }
+![avatar png](https://github.com/user-attachments/assets/c14e4e70-67e9-4530-b1e6-1cc197253b21)
